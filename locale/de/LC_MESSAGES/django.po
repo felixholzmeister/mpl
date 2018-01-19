@@ -1,0 +1,124 @@
+# oTree: Ready-Made Apps for Risk Preference Elicitation Methods - Multiple Price List.
+# Copyright (c)2017, Felix Holzmeister <felix.holzmeister@uibk.ac.at>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-01 09:49+0200\n"
+"PO-Revision-Date: 2017-02-16 11:21+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+
+#: .\templates\mpl\Decision.html:47
+msgid "Your Decision"
+msgstr "Ihre Entscheidung"
+
+#: .\templates\mpl\Decision.html:63
+#, python-format
+msgid "Page %(page)s of %(total)s"
+msgstr "Seite %(page)s von %(total)s"
+
+#: .\templates\mpl\Decision.html:84 .\templates\mpl\Decision.html.py:110
+#: .\templates\mpl\Decision.html:137 .\templates\mpl\Results.html:66
+#: .\templates\mpl\Results.html.py:93 .\templates\mpl\Results.html:104
+#: .\templates\mpl\Results.html.py:132
+msgid "Option A"
+msgstr "Option A"
+
+#: .\templates\mpl\Decision.html:85 .\templates\mpl\Decision.html.py:115
+#: .\templates\mpl\Decision.html:139 .\templates\mpl\Results.html:67
+#: .\templates\mpl\Results.html.py:98 .\templates\mpl\Results.html:109
+#: .\templates\mpl\Results.html.py:134
+msgid "Option B"
+msgstr "Option B"
+
+#: .\templates\mpl\Decision.html:162 .\templates\mpl\Decision.html.py:174
+#: .\templates\mpl\Results.html:157 .\templates\mpl\Results.html.py:178
+msgid "with a probability of "
+msgstr "mit einer Wahrscheinlichkeit von "
+
+#: .\templates\mpl\Decision.html:163 .\templates\mpl\Decision.html.py:175
+#: .\templates\mpl\Results.html:158 .\templates\mpl\Results.html.py:179
+msgid "otherwise"
+msgstr "anderenfalls"
+
+#: .\templates\mpl\Instructions.html:18
+msgid "Instructions"
+msgstr "Instruktionen"
+
+#: .\templates\mpl\Instructions.html:29
+#, python-format
+msgid ""
+"In the following, you'll face %(n)s decisions listed on your screen. Each "
+"decision is a paired choice between \"Option A\" and \"Option B\". While the "
+"payoffs of the two options are fixed for all decisions, the chances of the "
+"high payoff for each option will vary."
+msgstr ""
+"Nachfolgend werden Ihnen %(n)s Entscheidungen am Bildschirm präsentiert. "
+"Jede dieser Entscheidungen besteht aus einer Auswahl zwischen \"Option A\" "
+"und \"Option B\". Während die Auszahlungsbeträge der beiden Optionen für "
+"alle Entscheidungen dieselben sind, variieren die Chancen, den hohen "
+"Auszahlungsbetrag zu erhalten, in jeder der Entscheidungen."
+
+#: .\templates\mpl\Instructions.html:36
+#, python-format
+msgid ""
+"After you have made all of your choices, one of the %(n)s decisions will be "
+"randomly chosen for your payment. For the option you chose, A or B, in this "
+"decision, it will be randomly determined (according to the corresponding "
+"probabilities) whether the low or high outcome will constitute your payoff."
+msgstr ""
+"Nachdem Sie alle Entscheidungen getroffen haben, wird eine der %(n)s "
+"Entscheidungen zufällig für Ihre Auszahlung bestimmt. Für die von Ihnen in "
+"dieser Entscheidung gewählte Option, \"A\" oder \"B\", wird entsprechend der "
+"jeweiligen Wahrscheinlichkeiten zufällig bestimmt, ob der niedrige oder hohe "
+"Betrag für Ihre Auszahlung realisiert wird."
+
+#: .\templates\mpl\Instructions.html:44
+#, python-format
+msgid ""
+"To summarize: You will make %(n)s choices; for each decision you will have "
+"to choose between \"Option A\" and \"Option B\". You may choose A for some "
+"decision rows and B for other rows. When you are finished, one of the %(n)s "
+"decisions will be randomly picked for your payoff. Then a random number will "
+"be drawn to determine your earnings for the option you chose in that "
+"decision."
+msgstr ""
+"Zusammengefasst: Sie treffen %(n)s Entscheidungen; in jeder dieser "
+"Entscheidungen wählen Sie zwischen \"Option A\" und \"Option B\". Dabei "
+"können Sie in einigen der Reihen \"A\" wählen, und sich in anderen Reihen "
+"für \"B\" entscheiden. Wenn Sie alle Ihre Entscheidungen getroffen haben, "
+"wird eine der %(n)s Entscheidungen zufällig für Ihre Auszahlung gewählt. "
+"Eine Zufallsziehung bestimmt dann für Ihre Auswahl (\"A\" oder \"B\") ob der "
+"niedrigere oder höhere Betrag ausbezahlt wird."
+
+#: .\templates\mpl\Results.html:40
+msgid "Results"
+msgstr "Ergebnisse"
+
+#: .\templates\mpl\Results.html:52
+msgid "The following decision was randomly chosen for your payment:"
+msgstr "Folgende Entscheidung wurde zufällig für Ihre Ausahlung gewählt:"
+
+#: .\templates\mpl\Results.html:205
+#, python-format
+msgid ""
+"As indicated above, you decided to opt for option %(option_to_pay)s in this "
+"decision. For the chosen option, one of the two possible outcomes has been "
+"randomly realized based on the corresponding probabilities."
+msgstr ""
+"Wie oben angezeigt, haben Sie sich in dieser Entscheidung für \"Option %"
+"(option_to_pay)s\" entschieden. Für die gewählte Option wurde einer der "
+"beiden möglichen Beträge entsprechend der zugrundeliegenden "
+"Wahrscheinlichkeiten zufällig realisiert."
+
+#: .\templates\mpl\Results.html:212
+#, python-format
+msgid "Your payoff in this task equals <b>%(payoff)s</b>."
+msgstr "Ihre Auszahlung in dieser Aufgabe beträgt <b>%(payoff)s</b>."

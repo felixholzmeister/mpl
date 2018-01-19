@@ -1,0 +1,127 @@
+/* ****************************************************************************************************************** */
+/* *** General *** */
+/* ****************************************************************************************************************** */
+
+h2 {
+    text-align: center !important;
+}
+
+.page-header {
+    margin: 40px 0 40px;
+    padding: 0;
+    border-bottom: none;
+}
+
+.next-button {
+    margin: 40px auto;
+    display: inherit;
+}
+
+.wrapper, .alert {
+    min-width: 560px;
+    max-width: 720px;
+    margin: 0 auto 20px;
+}
+
+
+/* ****************************************************************************************************************** */
+/* *** Instructions *** */
+/* ****************************************************************************************************************** */
+
+.instructions {
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,245,0.25);
+	margin: 40px auto;
+    padding: 20px 20px 10px 20px;
+
+    position:relative;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.05) inset;
+       -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.05) inset;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.05) inset;
+
+    -moz-border-radius: 5px;
+         border-radius: 5px;
+}
+
+
+/* ****************************************************************************************************************** */
+/* *** Decision/Results Table *** */
+/* ****************************************************************************************************************** */
+
+.table>thead>tr>th,
+.table>tbody>tr>td {
+    vertical-align: middle;
+    border: none;
+}
+
+.header {
+    background-color: #f1f1f1;
+}
+
+.pie-chart {
+    min-width: 40px;
+    margin: 0 auto;
+}
+
+.highcharts-container {
+    margin: 0 auto;
+}
+
+.formfield {
+    min-width: 80px;
+    text-align: center;
+}
+
+.lottery-a {
+    min-width: 160px;
+    text-align: right;
+}
+
+.lottery-b {
+    min-width: 160px;
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.info {
+    padding: 15px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+.btn-primary {
+    margin-bottom: 10px;
+}
+
+.btn-success[disabled], .btn-primary[disabled] {
+    opacity: 1;
+}
+
+input[type="radio"]{
+    margin: 7px;
+}
+
+
+
+/* ****************************************************************************************************************** */
+/* *** Progress Bar *** */
+/* ****************************************************************************************************************** */
+
+.progress {
+    height: 15px;
+    margin-bottom: 30px;
+}
+
+.progress-bar {
+    background-color: rgba(43, 102, 154, 0.20);
+    background-image: linear-gradient(to bottom, rgba(43, 102, 154, 0.1) 0, rgba(43, 102, 154, 0.6) 100%);
+    background-repeat: repeat-x;
+}
+
+label {
+    font-weight: normal;
+    margin-bottom: 4pt;
+}
