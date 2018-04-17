@@ -1,5 +1,5 @@
 from otree.api import Currency as c, currency_range
-from . import views
+from . import pages
 from ._builtin import Bot
 from .models import Constants
 
@@ -23,9 +23,9 @@ class PlayerBot(Bot):
         if Constants.instructions:
             if Constants.one_choice_per_page:
                 if page == 1:
-                    yield (views.Instructions)
+                    yield (pages.Instructions)
             else:
-                yield (views.Instructions)
+                yield (pages.Instructions)
 
         # ------------------------------------------------------------------------------------------------------------ #
         # make decisions
@@ -35,11 +35,11 @@ class PlayerBot(Bot):
 
         if Constants.one_choice_per_page:
             if indices[page - 1] <= switching_point:
-                yield (views.Decision, {
+                yield (pages.Decision, {
                     form_fields[page - 1]: 'A'
                 })
             else:
-                yield (views.Decision, {
+                yield (pages.Decision, {
                     form_fields[page - 1]: 'B'
             })
 
@@ -52,7 +52,7 @@ class PlayerBot(Bot):
                     decisions.append('B')
 
             choices = zip(form_fields, decisions)
-            yield (views.Decision, {
+            yield (pages.Decision, {
                 i: j for i, j in choices
             })
 
@@ -62,6 +62,6 @@ class PlayerBot(Bot):
         if Constants.results:
             if Constants.one_choice_per_page:
                 if page == Constants.num_choices:
-                    yield (views.Results)
+                    yield (pages.Results)
             else:
-                yield (views.Results)
+                yield (pages.Results)

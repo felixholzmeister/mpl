@@ -1,5 +1,5 @@
 {% extends "global/Page.html" %}
-{% load staticfiles otree_tags %}
+{% load staticfiles otree %}
 {% load i18n %}
 
 
@@ -48,18 +48,19 @@
 
     <div class="wrapper">
 
-        <div class="panel panel-default info">
+        <div class="card info">
             {% blocktrans trimmed %}
                 The following decision was randomly chosen for your payment:
             {% endblocktrans %}
         </div>
+        <br/>
 
         <!-- ------------------------------------------------------------------------------------------------------- -->
         <!-- Choice To Pay: Large Pies -->
         <!-- ------------------------------------------------------------------------------------------------------- -->
         {% if Constants.one_choice_per_page == True and Constants.large_pies == True %}
 
-            <div class="panel panel-default">
+            <div class="card">
                 <table class="table">
                     <thead>
                         <tr class="header">
@@ -122,7 +123,7 @@
         <!-- ------------------------------------------------------------------------------------------------------- -->
         {% else %}
 
-            <div class="panel panel-default">
+            <div class="card">
                 <table class="table table-striped">
                     <thead>
                         <tr class="header">
@@ -195,12 +196,12 @@
                 </table>
             </div>
         {% endif %}
-
+        <br/>
 
         <!-- ------------------------------------------------------------------------------------------------------- -->
         <!-- payoff information -->
         <!-- ------------------------------------------------------------------------------------------------------- -->
-        <div class="panel panel-default info">
+        <div class="card info">
             <p>
                 {% blocktrans trimmed with option_to_pay=option_to_pay %}
                     As indicated above, you decided to opt for option {{ option_to_pay }} in this decision.
